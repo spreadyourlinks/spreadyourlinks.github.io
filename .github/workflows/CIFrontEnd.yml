@@ -28,3 +28,9 @@ jobs:
         destination-repository-name: 'spreadyourlinks.github.io'
         user-email: me@iamdhrumilshah.com
         target-branch: gitcopy
+
+    - run: |
+        git config --global user.email "spreadyourlinks@iamdhrumilshah.com"
+        git config --global user.name "SpreadYourLinksAuto"
+        npm install
+        npm run deploy
