@@ -5,6 +5,7 @@ on:
   push:
     branches:
       - gitcopy
+      - main
 
 jobs:
   build:
