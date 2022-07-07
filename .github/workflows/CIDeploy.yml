@@ -17,5 +17,7 @@ jobs:
 
     - name: Build
       run: |
+        git config --global user.email "spreadyourlinks@iamdhrumilshah.com"
+        git config --global user.name "SpreadYourLinksAuto"
         npm install
         npm run deploy
