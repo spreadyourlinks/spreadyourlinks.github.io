@@ -19,7 +19,7 @@
             window.close();
             history.back();
         };
-        xhr.open("POST", "https://spreadyourlinks-backend.herokuapp.com/setLink");
+        xhr.open("POST", "https://spreadyourlinks-backend.onrender.com//setLink");
         xhr.setRequestHeader("Content-Type", "application/json");
         xhr.setRequestHeader("SpreadYourLinks-Why", "booklet-backup-method");
         xhr.send(JSON.stringify({
